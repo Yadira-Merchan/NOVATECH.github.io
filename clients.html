@@ -1,30 +1,28 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
    <head>
-      <!-- basic -->
+      <!-- Metadatos básicos -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
+      <!-- Metadatos móviles -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>blueneek</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
+      <!-- Metadatos del sitio -->
+      <title>Blueneek - Soluciones Tecnológicas Innovadoras</title>
+      <meta name="keywords" content="tecnología, venta de equipos, soluciones IT, hardware, software, consultoría tecnológica">
+      <meta name="description" content="Blueneek ofrece las mejores soluciones tecnológicas, equipos de última generación y servicios de consultoría IT para empresas y particulares.">
+      <meta name="author" content="Blueneek">
+      <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
+      <!-- Estilos personalizados -->
       <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
+      <!-- Responsive -->
       <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
+      <!-- Favicon -->
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
+      <!-- Iconos -->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
       <!--[if lt IE 9]>
@@ -33,9 +31,9 @@
    </head>
    <!-- body -->
    <body class="main-layout margin_to90">
-      <!-- loader  -->
+      <!-- loader -->
       <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+         <div class="loader"><img src="images/loading.gif" alt="Cargando..." /></div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -48,7 +46,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              <a href="index.html"><img src="images/logo.png" alt="Blueneek Logo" /></a>
                            </div>
                         </div>
                      </div>
@@ -61,20 +59,26 @@
                            </button>
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
-                                 <li class="nav-item ">
-                                    <a class="nav-link" href="about.html"> About Us  </a>
-                                 </li> 
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Inicio</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="productos.html">Productos</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="servicios.html">Servicios</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="about.html">Nosotros</a>
+                                 </li>
                                  <li class="nav-item active">
-                                    <a class="nav-link" href="clients.html">Our Clients</a>
+                                    <a class="nav-link" href="clientes.html">Clientes</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="ourwork.html">Our Work</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                    <a class="nav-link" href="contact.html">Contacto</a>
                                  </li>
                               </ul>
-                              <div class="sign_btn"><a href="#">Get A Quote</a></div>
+                              <div class="sign_btn"><a href="#">Cotizar Ahora</a></div>
                            </div>
                         </nav>
                      </div>
@@ -85,14 +89,113 @@
       </header>
       <!-- end header inner -->
       <!-- end header -->
+      
+      <!-- hero section -->
+      <section class="hero-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h1>Tecnología de Vanguardia para tu Empresa</h1>
+                  <p>Encuentra los mejores equipos y soluciones tecnológicas para impulsar tu negocio.</p>
+                  <a href="productos.html" class="btn btn-primary">Ver Productos</a>
+               </div>
+               <div class="col-md-6">
+                  <img src="images/tech-hero.png" alt="Tecnología de vanguardia" class="img-fluid">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end hero section -->
+      
+      <!-- productos destacados -->
+      <section class="featured-products">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Productos Destacados</h2>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="product-card">
+                     <img src="images/laptop.png" alt="Laptops de última generación">
+                     <h3>Laptops Empresariales</h3>
+                     <p>Equipos de alto rendimiento para profesionales exigentes.</p>
+                     <div class="price">Desde $899</div>
+                     <a href="#" class="btn btn-outline-primary">Ver Detalles</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="product-card">
+                     <img src="images/server.png" alt="Servidores empresariales">
+                     <h3>Servidores</h3>
+                     <p>Infraestructura robusta para el centro de datos de tu empresa.</p>
+                     <div class="price">Desde $2,499</div>
+                     <a href="#" class="btn btn-outline-primary">Ver Detalles</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="product-card">
+                     <img src="images/network.png" alt="Soluciones de red">
+                     <h3>Redes y Conectividad</h3>
+                     <p>Equipos de networking para una conectividad impecable.</p>
+                     <div class="price">Desde $299</div>
+                     <a href="#" class="btn btn-outline-primary">Ver Detalles</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end productos destacados -->
+      
+      <!-- servicios -->
+      <section class="services-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Nuestros Servicios</h2>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="service-item">
+                     <i class="fa fa-cogs"></i>
+                     <h3>Consultoría IT</h3>
+                     <p>Asesoramiento especializado para optimizar tu infraestructura tecnológica.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="service-item">
+                     <i class="fa fa-shield"></i>
+                     <h3>Ciberseguridad</h3>
+                     <p>Protege tus datos y sistemas con nuestras soluciones de seguridad.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="service-item">
+                     <i class="fa fa-cloud"></i>
+                     <h3>Migración a la Nube</h3>
+                     <p>Te ayudamos a trasladar tus operaciones a entornos cloud seguros.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end servicios -->
      
-      <!-- clients -->
+      <!-- clientes -->
       <div class="clients">
          <div class="container">
             <div class="row">
                <div class="col-md-6 offset-md-3">
                   <div class="titlepage">
-                     <h2>What is Say clients</h2>
+                     <h2>Lo que dicen nuestros clientes</h2>
                      <span></span>
                   </div>
                </div>
@@ -100,46 +203,123 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="clients_box">
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                     <p>"Blueneek transformó completamente nuestra infraestructura tecnológica. Su equipo nos proporcionó soluciones personalizadas que han aumentado nuestra productividad en un 40%. La implementación fue rápida y el soporte post-venta excepcional."</p>
                   </div>
                   <div class="jonu">
-                     <img src="images/cross_img.png" alt="#"/>
-                     <h3>Jone due</h3>
-                     <strong>(sure there isn't)</strong>
-                     <a class="read_more" href="#">Get A Quote</a>
+                     <img src="images/cross_img.png" alt="Cliente satisfecho"/>
+                     <h3>María González</h3>
+                     <strong>Directora de TI, Empresa XYZ</strong>
+                     <a class="read_more" href="#">Ver más testimonios</a>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- end clients -->
+      <!-- end clientes -->
+      
+      <!-- contacto -->
+      <section class="contact-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 offset-md-3">
+                  <div class="titlepage">
+                     <h2>¿Necesitas asesoramiento?</h2>
+                     <span></span>
+                     <p>Déjanos tus datos y nos pondremos en contacto contigo</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-8 offset-md-2">
+                  <form class="contact-form">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <input type="text" class="form-control" placeholder="Nombre" required>
+                        </div>
+                        <div class="col-md-6">
+                           <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6">
+                           <input type="tel" class="form-control" placeholder="Teléfono">
+                        </div>
+                        <div class="col-md-6">
+                           <select class="form-control">
+                              <option>Selecciona un servicio</option>
+                              <option>Consultoría IT</option>
+                              <option>Equipos de cómputo</option>
+                              <option>Infraestructura de red</option>
+                              <option>Ciberseguridad</option>
+                              <option>Migración a la nube</option>
+                           </select>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12 text-center">
+                           <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end contacto -->
      
       <!--  footer -->
       <footer>
          <div class="footer">
             <div class="container">
+               <div class="row">
+                  <div class="col-md-4 padding_bottom1">
+                     <h3>Blueneek</h3>
+                     <p>Líderes en soluciones tecnológicas innovadoras para empresas y profesionales.</p>
+                     <div class="social-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                     </div>
+                  </div>
+                  <div class="col-md-4 padding_bottom1">
+                     <h3>Enlaces Rápidos</h3>
+                     <ul class="cont">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="about.html">Nosotros</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4">
+                     <h3>Contacto</h3>
+                     <ul class="cont">
+                        <li><i class="fa fa-map-marker"></i> Av. Tecnología 123, Ciudad</li>
+                        <li><i class="fa fa-phone"></i> +1 234 567 8900</li>
+                        <li><i class="fa fa-envelope"></i> info@blueneek.com</li>
+                     </ul>
+                  </div>
+               </div>
                <div class="row border-top">
-                  <div class="col-md-6 padding_bottom1   ">
-                     <h3>Subscribe Now</h3>
+                  <div class="col-md-6 padding_bottom1">
+                     <h3>Suscríbete a nuestro boletín</h3>
                      <form class="footer_form">
-                        <input class="enter" placeholder="Enter your email" type="type" name="Enter your email">
-                        <button class="submit">submit</button>
+                        <input class="enter" placeholder="Ingresa tu email" type="email" name="email" required>
+                        <button class="submit">Suscribirse</button>
                      </form>
                   </div>
                   <div class="col-md-6">
-                     <div class="row">
-                        <div class="col-md-5 offset-md-1 padding_bottom1">
-                           <h3>Links</h3>
-                           <ul class="cont">
-                              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </li>
-                           </ul>
-                        </div>
-                        <div class="col-md-5 offset-md-1">
-                           <h3>Contact us</h3>
-                           <ul class="cont">
-                              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </li>
-                           </ul>
-                        </div>
+                     <div class="payment-methods">
+                        <h4>Métodos de pago aceptados</h4>
+                        <img src="images/visa.png" alt="Visa">
+                        <img src="images/mastercard.png" alt="Mastercard">
+                        <img src="images/paypal.png" alt="PayPal">
                      </div>
                   </div>
                </div>
@@ -148,7 +328,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>© 2019 All Rights Reserved. <a href="https://html.design/"> Free Html Templates</a></p>
+                        <p>© 2023 Blueneek. Todos los derechos reservados.</p>
                      </div>
                   </div>
                </div>
@@ -161,11 +341,9 @@
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
-    
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
    </body>
 </html>
-
